@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>imgur Image Upload API</title>
+
+</head>
+<body>
+
+	<h1>Upload new Image to IMGUR</h1>
+
+	<!-- Image Preview -->
+	<img src="http://via.placeholder.com/200x200" height="300px" width="auto" class="img-preview">			
+
+	<!-- Insert Your client id here -->
+	<p>
+		IMGUR Client id: <input type="text" id="client-id">
+	</p>
+
+	<!-- Browse Files button -->
+	<p>
+		<input type="file" class="profile-pic" onchange="javascript: uploadToImgur.call(this)">
+	</p>
+
+	<script type="text/javascript" src="uploadPicture.js"></script>
+
+</body>
+</html>
