@@ -11,11 +11,6 @@
 	<!-- Image Preview -->
 	<img src="http://via.placeholder.com/200x200" height="300px" width="auto" class="img-preview">
 
-	<!-- URL -->
-	<p>
-		Uploaded image url: <input type="text" id="uploadedImgUrl">
-	</p>
-
 	<!-- Insert Your client id here -->
 	<p>
 		IMGUR Client id*: <input type="text" id="client-id">
@@ -25,6 +20,12 @@
 	<p>
 		<input type="file" class="profile-pic" onchange="javascript: uploadToImgur.call(this)">
 	</p>
+
+	<!-- URL -->
+	<p>
+		Result image url: <input type="text" id="uploadedImgUrl">
+	</p>
+
 
 	<script type="text/javascript" src="uploadPicture.js"></script>
 
